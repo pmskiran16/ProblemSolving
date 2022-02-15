@@ -1,6 +1,6 @@
 package com.practice;
 
-public class HuffmanDecoding {
+public class HuffmanDecoding_HR_M {
     public static void main(String[] args) {
     Node node = new Node(5, '-',
         new Node(2, '-',
@@ -8,7 +8,7 @@ public class HuffmanDecoding {
                 new Node(1, 'C',null, null)),
         new Node(3, 'A', null, null));
 
-        new HuffmanDecoding().decode("1001011", node);
+        new HuffmanDecoding_HR_M().decode("1001011", node);
     }
 
 
